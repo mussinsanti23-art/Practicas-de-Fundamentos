@@ -4,6 +4,9 @@ def sumar(a, b):
 def restar(a, b):
  return a - b
 
+def multiplicar(a, b):
+ return a * b
+
 def main():
 
  print("=== CALCULADORA EN PYTHON ===")
@@ -14,6 +17,7 @@ def main():
 
  print("Suma:", sumar(numero1, numero2))
  print("Resta:", restar(numero1, numero2))
+ print("Multiplicación:", multiplicar(numero1, numero2))
 
  if __name__ == "__main__":
     main()
