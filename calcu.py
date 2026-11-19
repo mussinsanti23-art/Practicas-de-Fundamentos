@@ -7,6 +7,12 @@ def restar(a, b):
 def multiplicar(a, b):
  return a * b
 
+def dividir(a, b):
+ if b != 0:
+    return a / b
+ else:
+    return "Error: No se puede dividir entre cero."
+
 def main():
 
  print("=== CALCULADORA EN PYTHON ===")
@@ -18,6 +24,7 @@ def main():
  print("Suma:", sumar(numero1, numero2))
  print("Resta:", restar(numero1, numero2))
  print("Multiplicación:", multiplicar(numero1, numero2))
+ print("División:", dividir(numero1, numero2))
 
  if __name__ == "__main__":
     main()
